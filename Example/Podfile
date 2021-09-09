@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SKNeumorphKit_Example' do
+  pod 'SKNeumorphKit', :path => '../'
+
+  target 'SKNeumorphKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
