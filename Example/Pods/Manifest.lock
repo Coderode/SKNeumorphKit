@@ -1,0 +1,16 @@
+PODS:
+  - SKNeumorphKit (0.1.0)
+
+DEPENDENCIES:
+  - SKNeumorphKit (from `../`)
+
+EXTERNAL SOURCES:
+  SKNeumorphKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SKNeumorphKit: 9537148d73acf612dcfde13cae15648b4a92ea92
+
+PODFILE CHECKSUM: 6d3cda7e63207f0a4fd016673886270203fd3ec3
+
+COCOAPODS: 1.11.0

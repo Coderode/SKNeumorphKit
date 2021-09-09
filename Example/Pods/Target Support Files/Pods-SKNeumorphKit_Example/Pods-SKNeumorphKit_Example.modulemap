@@ -1,0 +1,6 @@
+framework module Pods_SKNeumorphKit_Example {
+  umbrella header "Pods-SKNeumorphKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

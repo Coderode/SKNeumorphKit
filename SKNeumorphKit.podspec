@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SKNeumorphKit'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of SKNeumorphKit.'
 
 # This description is used to generate tags and improve search results.
@@ -24,19 +24,12 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/coderode/SKNeumorphKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'coderode' => 'sandeep.kushwah@bigohtech.com' }
+  s.author           = { 'coderode' => 'sk9958814616@gmail.com' }
   s.source           = { :git => 'https://github.com/coderode/SKNeumorphKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'SKNeumorphKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SKNeumorphKit' => ['SKNeumorphKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

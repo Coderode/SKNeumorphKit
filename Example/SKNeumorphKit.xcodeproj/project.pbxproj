@@ -29,10 +29,10 @@
 
 /* Begin PBXFileReference section */
 		10E98982823A58A0E1953610 /* Pods-SKNeumorphKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKNeumorphKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-SKNeumorphKit_Tests/Pods-SKNeumorphKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		156BAA68EB73083981C5225B /* SKNeumorphKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SKNeumorphKit.podspec; path = ../SKNeumorphKit.podspec; sourceTree = "<group>"; };
+		156BAA68EB73083981C5225B /* SKNeumorphKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKNeumorphKit.podspec; path = ../SKNeumorphKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2CE8943471BA1631E0EE1812 /* Pods-SKNeumorphKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKNeumorphKit_Example.release.xcconfig"; path = "Target Support Files/Pods-SKNeumorphKit_Example/Pods-SKNeumorphKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3DD2AF41DD949B2DE8F3E8BB /* Pods_SKNeumorphKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKNeumorphKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		491B29C52A20767763152CCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		491B29C52A20767763152CCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SKNeumorphKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKNeumorphKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		9AF3835666AAA07615544A6A /* Pods-SKNeumorphKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKNeumorphKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-SKNeumorphKit_Example/Pods-SKNeumorphKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B6E6BF28CF630158071D3690 /* Pods_SKNeumorphKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKNeumorphKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF11D2D614BB971468EBE72D /* Pods-SKNeumorphKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKNeumorphKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SKNeumorphKit_Tests/Pods-SKNeumorphKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F045C303BF519DE99D86217E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F045C303BF519DE99D86217E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				EF11D2D614BB971468EBE72D /* Pods-SKNeumorphKit_Tests.debug.xcconfig */,
 				10E98982823A58A0E1953610 /* Pods-SKNeumorphKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

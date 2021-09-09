@@ -1,0 +1,6 @@
+framework module SKNeumorphKit {
+  umbrella header "SKNeumorphKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

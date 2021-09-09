@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06295EE8FA880D7AACB5426A4985BD95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0D2CA321FC8CF9A4C330924EC0A3D0F6 /* Pods-SKNeumorphKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88643B2936B7F9D07327105A08AC37DE /* Pods-SKNeumorphKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F5AE2CA0AB8DAAE1FD44FB576A2C5DD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0759F7DF511AB4DC8F03D793957E8BB /* ReplaceMe.swift */; };
+		6BF5EFB3CAC344F6961437F1CA800218 /* SKNeumorphKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A7497AD7257E896EC48FE1DBE0528F /* SKNeumorphKit-dummy.m */; };
+		70EDB2D3DC5186723A07FB240AE65F01 /* Pods-SKNeumorphKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DC834E9554D93F065D28420CBBFBBD /* Pods-SKNeumorphKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72CEE7D7B4BACB5E5EC63A432AC9DAA4 /* Pods-SKNeumorphKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE61180C6E898308481262659A15A789 /* Pods-SKNeumorphKit_Tests-dummy.m */; };
+		7C309B9DF4E2FEFA4E7DBE7E2FBF86EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E60461B6C1410E57AF30E203A1511325 /* Pods-SKNeumorphKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AABEB06E84B6531F08DDC7285B009BEB /* Pods-SKNeumorphKit_Example-dummy.m */; };
+		E9B565168C0DB58E8634D8D09763B9FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F18A405812727870A652B548E21FE0BA /* SKNeumorphKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F0822B39178C03796C2B7AB928000E /* SKNeumorphKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AA3A0C09AF8691CA4EB540FB01AFB2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07017B8B473AC93ABFA0A8AB038B37FF;
+			remoteInfo = SKNeumorphKit;
+		};
+		F360A64384E611268A5CC4569C5D4759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2DB6B01D618A322BB99C511672DC134;
+			remoteInfo = "Pods-SKNeumorphKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B64D143C7F6A2F24E4529DB1467665D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0F52D8D8F1CD5E086A49B9DCFC3DF9E2 /* SKNeumorphKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SKNeumorphKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		14D9E288F0207BA01D14BFC70C9ABFFD /* SKNeumorphKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKNeumorphKit.modulemap; sourceTree = "<group>"; };
+		18F0822B39178C03796C2B7AB928000E /* SKNeumorphKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKNeumorphKit-umbrella.h"; sourceTree = "<group>"; };
+		1E62CC4225BA7558F477F05F2EAF86B3 /* Pods-SKNeumorphKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKNeumorphKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1FE90BE1B89FB3924561F994C94FD737 /* Pods-SKNeumorphKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKNeumorphKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37FBA132633A2A55181EDF892C0AD23A /* Pods-SKNeumorphKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKNeumorphKit_Example.modulemap"; sourceTree = "<group>"; };
+		4D40D6D2890E4A6F241B6F151766430D /* Pods-SKNeumorphKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKNeumorphKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E9FA0B5F7766E2358112FB4A30587BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		52124EAC0977E30952F4CE6D3C8246C0 /* SKNeumorphKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKNeumorphKit.debug.xcconfig; sourceTree = "<group>"; };
+		5E4D997CEF65EF505DF89C7AEA44EC10 /* Pods-SKNeumorphKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SKNeumorphKit_Tests"; path = Pods_SKNeumorphKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		88643B2936B7F9D07327105A08AC37DE /* Pods-SKNeumorphKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKNeumorphKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8BAB7046D8CF55FA0DB8B00EBF0EC89B /* SKNeumorphKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKNeumorphKit-prefix.pch"; sourceTree = "<group>"; };
+		9009ADC76F3A05028CE4D2064229B303 /* SKNeumorphKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKNeumorphKit; path = SKNeumorphKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BBA9FDB4AC26D391AB7E41A6758E08 /* Pods-SKNeumorphKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKNeumorphKit_Example-Info.plist"; sourceTree = "<group>"; };
+		98B1ABFF83E1A365C7CDD351BC42BA0F /* SKNeumorphKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKNeumorphKit.release.xcconfig; sourceTree = "<group>"; };
+		9BB8AB967D4FD17B6D174DE0223B13F1 /* SKNeumorphKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKNeumorphKit-Info.plist"; sourceTree = "<group>"; };
+		9D3FB7F60AFE08C07335009CDBF94F16 /* Pods-SKNeumorphKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKNeumorphKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A13AB79729408D623825F203120937EA /* Pods-SKNeumorphKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SKNeumorphKit_Example"; path = Pods_SKNeumorphKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58C13E2CB00D03B5D8A7D7C23D5BCCE /* Pods-SKNeumorphKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKNeumorphKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AABEB06E84B6531F08DDC7285B009BEB /* Pods-SKNeumorphKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKNeumorphKit_Example-dummy.m"; sourceTree = "<group>"; };
+		BDC51D8CF0D4940261C4E0E08D588A78 /* Pods-SKNeumorphKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKNeumorphKit_Tests.modulemap"; sourceTree = "<group>"; };
+		BE61180C6E898308481262659A15A789 /* Pods-SKNeumorphKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKNeumorphKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		C5DC834E9554D93F065D28420CBBFBBD /* Pods-SKNeumorphKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKNeumorphKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		D0A7497AD7257E896EC48FE1DBE0528F /* SKNeumorphKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKNeumorphKit-dummy.m"; sourceTree = "<group>"; };
+		E289DEBC5B57513C0ADA12106E0C027E /* Pods-SKNeumorphKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKNeumorphKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		F0759F7DF511AB4DC8F03D793957E8BB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SKNeumorphKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F5C684798275844B5603AFC532F7BB69 /* Pods-SKNeumorphKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKNeumorphKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F723E2EA2955DF55DBF20C4C15705735 /* Pods-SKNeumorphKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKNeumorphKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9224879C371ED74127BE61C0C0BE3C3 /* Pods-SKNeumorphKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKNeumorphKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF3ECAEC7204EBCD7C1CC6A7DD0F2DAA /* Pods-SKNeumorphKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKNeumorphKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06D4330FE1DF7DCBD2B54B55D9676829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B565168C0DB58E8634D8D09763B9FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B86C728C1C39429D00251571C749800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C309B9DF4E2FEFA4E7DBE7E2FBF86EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC850C701DF56DB62973B492102A92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06295EE8FA880D7AACB5426A4985BD95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C2EC06C8CAEE3B3B50D82C9914DFBF8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4E9FA0B5F7766E2358112FB4A30587BC /* LICENSE */,
+				0B64D143C7F6A2F24E4529DB1467665D /* README.md */,
+				0F52D8D8F1CD5E086A49B9DCFC3DF9E2 /* SKNeumorphKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2A4031E59A8F21F7EE33E78FFFC2F187 /* SKNeumorphKit */ = {
+			isa = PBXGroup;
+			children = (
+				F0759F7DF511AB4DC8F03D793957E8BB /* ReplaceMe.swift */,
+				0C2EC06C8CAEE3B3B50D82C9914DFBF8 /* Pod */,
+				8C3CED0E0E62EAFC1C122116A2DCA2A9 /* Support Files */,
+			);
+			name = SKNeumorphKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3EDA7795EB12D4241272C90C801F3520 /* Pods-SKNeumorphKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BDC51D8CF0D4940261C4E0E08D588A78 /* Pods-SKNeumorphKit_Tests.modulemap */,
+				F9224879C371ED74127BE61C0C0BE3C3 /* Pods-SKNeumorphKit_Tests-acknowledgements.markdown */,
+				FF3ECAEC7204EBCD7C1CC6A7DD0F2DAA /* Pods-SKNeumorphKit_Tests-acknowledgements.plist */,
+				BE61180C6E898308481262659A15A789 /* Pods-SKNeumorphKit_Tests-dummy.m */,
+				E289DEBC5B57513C0ADA12106E0C027E /* Pods-SKNeumorphKit_Tests-Info.plist */,
+				88643B2936B7F9D07327105A08AC37DE /* Pods-SKNeumorphKit_Tests-umbrella.h */,
+				F723E2EA2955DF55DBF20C4C15705735 /* Pods-SKNeumorphKit_Tests.debug.xcconfig */,
+				F5C684798275844B5603AFC532F7BB69 /* Pods-SKNeumorphKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-SKNeumorphKit_Tests";
+			path = "Target Support Files/Pods-SKNeumorphKit_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D6B13DD651A8BED2D5899D2C8A38FE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A13AB79729408D623825F203120937EA /* Pods-SKNeumorphKit_Example */,
+				5E4D997CEF65EF505DF89C7AEA44EC10 /* Pods-SKNeumorphKit_Tests */,
+				9009ADC76F3A05028CE4D2064229B303 /* SKNeumorphKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876C4279EE6542C1756D1B82B1143D3A /* Pods-SKNeumorphKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				37FBA132633A2A55181EDF892C0AD23A /* Pods-SKNeumorphKit_Example.modulemap */,
+				1FE90BE1B89FB3924561F994C94FD737 /* Pods-SKNeumorphKit_Example-acknowledgements.markdown */,
+				4D40D6D2890E4A6F241B6F151766430D /* Pods-SKNeumorphKit_Example-acknowledgements.plist */,
+				AABEB06E84B6531F08DDC7285B009BEB /* Pods-SKNeumorphKit_Example-dummy.m */,
+				1E62CC4225BA7558F477F05F2EAF86B3 /* Pods-SKNeumorphKit_Example-frameworks.sh */,
+				97BBA9FDB4AC26D391AB7E41A6758E08 /* Pods-SKNeumorphKit_Example-Info.plist */,
+				C5DC834E9554D93F065D28420CBBFBBD /* Pods-SKNeumorphKit_Example-umbrella.h */,
+				A58C13E2CB00D03B5D8A7D7C23D5BCCE /* Pods-SKNeumorphKit_Example.debug.xcconfig */,
+				9D3FB7F60AFE08C07335009CDBF94F16 /* Pods-SKNeumorphKit_Example.release.xcconfig */,
+			);
+			name = "Pods-SKNeumorphKit_Example";
+			path = "Target Support Files/Pods-SKNeumorphKit_Example";
+			sourceTree = "<group>";
+		};
+		8C3CED0E0E62EAFC1C122116A2DCA2A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14D9E288F0207BA01D14BFC70C9ABFFD /* SKNeumorphKit.modulemap */,
+				D0A7497AD7257E896EC48FE1DBE0528F /* SKNeumorphKit-dummy.m */,
+				9BB8AB967D4FD17B6D174DE0223B13F1 /* SKNeumorphKit-Info.plist */,
+				8BAB7046D8CF55FA0DB8B00EBF0EC89B /* SKNeumorphKit-prefix.pch */,
+				18F0822B39178C03796C2B7AB928000E /* SKNeumorphKit-umbrella.h */,
+				52124EAC0977E30952F4CE6D3C8246C0 /* SKNeumorphKit.debug.xcconfig */,
+				98B1ABFF83E1A365C7CDD351BC42BA0F /* SKNeumorphKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKNeumorphKit";
+			sourceTree = "<group>";
+		};
+		9ACB6A4A67DD3E68AE58C4F82332744D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				876C4279EE6542C1756D1B82B1143D3A /* Pods-SKNeumorphKit_Example */,
+				3EDA7795EB12D4241272C90C801F3520 /* Pods-SKNeumorphKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A8DE6F0B8980EAFA59189B4FCD6CAFB0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A4031E59A8F21F7EE33E78FFFC2F187 /* SKNeumorphKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A8DE6F0B8980EAFA59189B4FCD6CAFB0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5D6B13DD651A8BED2D5899D2C8A38FE1 /* Products */,
+				9ACB6A4A67DD3E68AE58C4F82332744D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		77BAF1BCF7C082B592E497EC3F7EDF32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18A405812727870A652B548E21FE0BA /* SKNeumorphKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9BCB5509A058383FBE4F7C23462B9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2CA321FC8CF9A4C330924EC0A3D0F6 /* Pods-SKNeumorphKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC7F981B3E26E9B205A132B015A66F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EDB2D3DC5186723A07FB240AE65F01 /* Pods-SKNeumorphKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07017B8B473AC93ABFA0A8AB038B37FF /* SKNeumorphKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D4188EA4A5278EFA981A2A6BFDDD95 /* Build configuration list for PBXNativeTarget "SKNeumorphKit" */;
+			buildPhases = (
+				77BAF1BCF7C082B592E497EC3F7EDF32 /* Headers */,
+				D50DF3CCB3117FCE528CACE66091A726 /* Sources */,
+				2B86C728C1C39429D00251571C749800 /* Frameworks */,
+				31137490397C82DA47F1D6E5429B0555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKNeumorphKit;
+			productName = SKNeumorphKit;
+			productReference = 9009ADC76F3A05028CE4D2064229B303 /* SKNeumorphKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1D5F2EFC0E2A805D43870D23B9435FA /* Pods-SKNeumorphKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B86B94785FC2D42165BCFBD8D7706D4 /* Build configuration list for PBXNativeTarget "Pods-SKNeumorphKit_Tests" */;
+			buildPhases = (
+				8F9BCB5509A058383FBE4F7C23462B9A /* Headers */,
+				18EE31AF0AF8942ABFFA3A86C8D6E8E5 /* Sources */,
+				EEC850C701DF56DB62973B492102A92B /* Frameworks */,
+				D692669ED20C5B1FF4B9F520CBBDC58F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				859257B6AD8431AD3A9ECB202D8679F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SKNeumorphKit_Tests";
+			productName = Pods_SKNeumorphKit_Tests;
+			productReference = 5E4D997CEF65EF505DF89C7AEA44EC10 /* Pods-SKNeumorphKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2DB6B01D618A322BB99C511672DC134 /* Pods-SKNeumorphKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484C2B06D8FC9271E2842B25AE80B048 /* Build configuration list for PBXNativeTarget "Pods-SKNeumorphKit_Example" */;
+			buildPhases = (
+				EFC7F981B3E26E9B205A132B015A66F1 /* Headers */,
+				917913467DC467469C180B24E6C55551 /* Sources */,
+				06D4330FE1DF7DCBD2B54B55D9676829 /* Frameworks */,
+				F1B33E0D86A05F5B3C1387713AA0D9E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C316BC6F681FA8E340FB781E7D3B4063 /* PBXTargetDependency */,
+			);
+			name = "Pods-SKNeumorphKit_Example";
+			productName = Pods_SKNeumorphKit_Example;
+			productReference = A13AB79729408D623825F203120937EA /* Pods-SKNeumorphKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5D6B13DD651A8BED2D5899D2C8A38FE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2DB6B01D618A322BB99C511672DC134 /* Pods-SKNeumorphKit_Example */,
+				A1D5F2EFC0E2A805D43870D23B9435FA /* Pods-SKNeumorphKit_Tests */,
+				07017B8B473AC93ABFA0A8AB038B37FF /* SKNeumorphKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31137490397C82DA47F1D6E5429B0555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D692669ED20C5B1FF4B9F520CBBDC58F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B33E0D86A05F5B3C1387713AA0D9E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EE31AF0AF8942ABFFA3A86C8D6E8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CEE7D7B4BACB5E5EC63A432AC9DAA4 /* Pods-SKNeumorphKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917913467DC467469C180B24E6C55551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60461B6C1410E57AF30E203A1511325 /* Pods-SKNeumorphKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50DF3CCB3117FCE528CACE66091A726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5AE2CA0AB8DAAE1FD44FB576A2C5DD /* ReplaceMe.swift in Sources */,
+				6BF5EFB3CAC344F6961437F1CA800218 /* SKNeumorphKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		859257B6AD8431AD3A9ECB202D8679F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SKNeumorphKit_Example";
+			target = B2DB6B01D618A322BB99C511672DC134 /* Pods-SKNeumorphKit_Example */;
+			targetProxy = F360A64384E611268A5CC4569C5D4759 /* PBXContainerItemProxy */;
+		};
+		C316BC6F681FA8E340FB781E7D3B4063 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKNeumorphKit;
+			target = 07017B8B473AC93ABFA0A8AB038B37FF /* SKNeumorphKit */;
+			targetProxy = 9AA3A0C09AF8691CA4EB540FB01AFB2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		51C41EC9D5E3B89B684218941BD27409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C684798275844B5603AFC532F7BB69 /* Pods-SKNeumorphKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKNeumorphKit_Tests/Pods-SKNeumorphKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKNeumorphKit_Tests/Pods-SKNeumorphKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		604E33B85EB0AE86EEFAAEECA79D23AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58C13E2CB00D03B5D8A7D7C23D5BCCE /* Pods-SKNeumorphKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKNeumorphKit_Example/Pods-SKNeumorphKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKNeumorphKit_Example/Pods-SKNeumorphKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		751EDB3606A856700E0EBB733380810A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3FB7F60AFE08C07335009CDBF94F16 /* Pods-SKNeumorphKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKNeumorphKit_Example/Pods-SKNeumorphKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKNeumorphKit_Example/Pods-SKNeumorphKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4E448B571C2BB52853C2CAF6A72C975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B1ABFF83E1A365C7CDD351BC42BA0F /* SKNeumorphKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKNeumorphKit/SKNeumorphKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKNeumorphKit/SKNeumorphKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKNeumorphKit/SKNeumorphKit.modulemap";
+				PRODUCT_MODULE_NAME = SKNeumorphKit;
+				PRODUCT_NAME = SKNeumorphKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E652507D1EE4097AF4A3ACF0D6E03F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52124EAC0977E30952F4CE6D3C8246C0 /* SKNeumorphKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKNeumorphKit/SKNeumorphKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKNeumorphKit/SKNeumorphKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKNeumorphKit/SKNeumorphKit.modulemap";
+				PRODUCT_MODULE_NAME = SKNeumorphKit;
+				PRODUCT_NAME = SKNeumorphKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEECE228E29A41B5CC79DF4398CE3612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F723E2EA2955DF55DBF20C4C15705735 /* Pods-SKNeumorphKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKNeumorphKit_Tests/Pods-SKNeumorphKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKNeumorphKit_Tests/Pods-SKNeumorphKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484C2B06D8FC9271E2842B25AE80B048 /* Build configuration list for PBXNativeTarget "Pods-SKNeumorphKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604E33B85EB0AE86EEFAAEECA79D23AA /* Debug */,
+				751EDB3606A856700E0EBB733380810A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D4188EA4A5278EFA981A2A6BFDDD95 /* Build configuration list for PBXNativeTarget "SKNeumorphKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E652507D1EE4097AF4A3ACF0D6E03F0A /* Debug */,
+				E4E448B571C2BB52853C2CAF6A72C975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B86B94785FC2D42165BCFBD8D7706D4 /* Build configuration list for PBXNativeTarget "Pods-SKNeumorphKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEECE228E29A41B5CC79DF4398CE3612 /* Debug */,
+				51C41EC9D5E3B89B684218941BD27409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
