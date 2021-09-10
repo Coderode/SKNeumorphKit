@@ -19,6 +19,20 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SKNeumorphKit'
 ```
+### Podfile Installation
+
+```
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'SKNeumorphKit_Example' do
+  pod 'SKNeumorphKit', :path => '../'
+end
+
+```
+## Images
+![image1](https://github.com/Coderode/Images/blob/master/iOS/NMKit/NMKitExm.png)
 
 ## Author
 

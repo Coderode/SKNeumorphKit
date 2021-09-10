@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vXZ-lx-hvc" customClass="ViewController" customModule="SKNeumorphKit_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="8KX-qF-gcy">
+                                <rect key="frame" x="50" y="94" width="314" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKA-16-vad" customClass="NMButtonView" customModule="SKNeumorphKit">
+                                        <rect key="frame" x="0.0" y="0.0" width="142" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="zoM-6a-wsm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QqS-bJ-hjI" customClass="NMButtonView" customModule="SKNeumorphKit">
+                                        <rect key="frame" x="172" y="0.0" width="142" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpw-oH-VpT" customClass="NMView" customModule="SKNeumorphKit">
+                                <rect key="frame" x="50" y="164" width="314" height="70"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="YNr-8K-QBx"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pxu-zk-uWM" customClass="NMLabel" customModule="SKNeumorphKit">
+                                <rect key="frame" x="50" y="254" width="314" height="40"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="nfC-86-XpJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pID-3m-2bq" customClass="NMTextField" customModule="SKNeumorphKit">
+                                <rect key="frame" x="50" y="324" width="314" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="rGC-nQ-AM8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eyn-eb-PmI" customClass="NMSwitch" customModule="SKNeumorphKit">
+                                <rect key="frame" x="50" y="394" width="52" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="0bE-ty-cr0"/>
+                                </constraints>
+                            </switch>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mwH-Df-8K2" customClass="NMSlider" customModule="SKNeumorphKit">
+                                <rect key="frame" x="48" y="455" width="318" height="31"/>
+                            </slider>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Q6w-kt-jpg" customClass="NMProgressView" customModule="SKNeumorphKit">
+                                <rect key="frame" x="50" y="515" width="314" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="J4x-9s-vMS"/>
+                                </constraints>
+                            </progressView>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="XKq-bh-h3L" customClass="NMStepper" customModule="SKNeumorphKit">
+                                <rect key="frame" x="50" y="560" width="40" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="8hw-Lx-EXf"/>
+                                </constraints>
+                            </stepper>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="cqU-Cg-TOH" customClass="NMActivityIndicator" customModule="SKNeumorphKit">
+                                <rect key="frame" x="50" y="622" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Ckp-TX-gGB"/>
+                                    <constraint firstAttribute="height" constant="60" id="ELQ-ix-6ez"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="sVf-cy-1Au" customClass="NMPageControl" customModule="SKNeumorphKit">
+                                <rect key="frame" x="225" y="560" width="139" height="27.5"/>
+                            </pageControl>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="ncX-MR-3mW" customClass="NMSearchBar" customModule="SKNeumorphKit">
+                                <rect key="frame" x="50" y="712" width="314" height="51"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ncX-MR-3mW" firstAttribute="top" secondItem="cqU-Cg-TOH" secondAttribute="bottom" constant="30" id="3ek-B0-dIq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pID-3m-2bq" secondAttribute="trailing" constant="30" id="A08-Eu-4by"/>
+                            <constraint firstItem="Q6w-kt-jpg" firstAttribute="top" secondItem="mwH-Df-8K2" secondAttribute="bottom" constant="30" id="Bn7-4b-fdR"/>
+                            <constraint firstItem="8KX-qF-gcy" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="50" id="D8f-j1-Vsc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mwH-Df-8K2" secondAttribute="trailing" constant="30" id="Ecb-9f-l8m"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pxu-zk-uWM" secondAttribute="trailing" constant="30" id="G67-jk-XBj"/>
+                            <constraint firstItem="Pxu-zk-uWM" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="MGa-Iu-4PE"/>
+                            <constraint firstItem="ncX-MR-3mW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="O9b-pT-oeo"/>
+                            <constraint firstItem="Eyn-eb-PmI" firstAttribute="top" secondItem="pID-3m-2bq" secondAttribute="bottom" constant="20" id="OVK-Tp-Nkd"/>
+                            <constraint firstItem="pID-3m-2bq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="QYd-ao-IMp"/>
+                            <constraint firstItem="XKq-bh-h3L" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="RWN-8g-6ht"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sVf-cy-1Au" secondAttribute="trailing" constant="30" id="SBK-H7-t5D"/>
+                            <constraint firstItem="bpw-oH-VpT" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="VIm-u6-wVf"/>
+                            <constraint firstItem="mwH-Df-8K2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="WjW-vF-c6R"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Q6w-kt-jpg" secondAttribute="trailing" constant="30" id="Xb4-dP-2su"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ncX-MR-3mW" secondAttribute="trailing" constant="30" id="YKv-qX-eVO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bpw-oH-VpT" secondAttribute="trailing" constant="30" id="b2E-8E-2cB"/>
+                            <constraint firstItem="Q6w-kt-jpg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="cHb-tO-lut"/>
+                            <constraint firstItem="pID-3m-2bq" firstAttribute="top" secondItem="Pxu-zk-uWM" secondAttribute="bottom" constant="30" id="fr8-jP-PsH"/>
+                            <constraint firstItem="cqU-Cg-TOH" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="g9i-SD-t9c"/>
+                            <constraint firstItem="cqU-Cg-TOH" firstAttribute="top" secondItem="XKq-bh-h3L" secondAttribute="bottom" constant="30" id="jUW-Kx-1PW"/>
+                            <constraint firstItem="Pxu-zk-uWM" firstAttribute="top" secondItem="bpw-oH-VpT" secondAttribute="bottom" constant="20" id="jmQ-cg-uEF"/>
+                            <constraint firstItem="Eyn-eb-PmI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="lXO-Pj-yNJ"/>
+                            <constraint firstItem="sVf-cy-1Au" firstAttribute="top" secondItem="Q6w-kt-jpg" secondAttribute="bottom" constant="30" id="oTD-Bc-zMq"/>
+                            <constraint firstItem="bpw-oH-VpT" firstAttribute="top" secondItem="8KX-qF-gcy" secondAttribute="bottom" constant="20" id="olq-EG-9m7"/>
+                            <constraint firstItem="XKq-bh-h3L" firstAttribute="top" secondItem="Q6w-kt-jpg" secondAttribute="bottom" constant="30" id="pJ4-Md-bDk"/>
+                            <constraint firstItem="8KX-qF-gcy" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="tOy-pt-uSH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8KX-qF-gcy" secondAttribute="trailing" constant="30" id="vTg-lq-RYI"/>
+                            <constraint firstItem="mwH-Df-8K2" firstAttribute="top" secondItem="Eyn-eb-PmI" secondAttribute="bottom" constant="30" id="xHa-kC-SUM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonExmple" destination="XKA-16-vad" id="HPr-LP-Dfh"/>
+                        <outlet property="neuButton" destination="QqS-bJ-hjI" id="YWk-Mw-8zG"/>
+                        <outlet property="nmActivityIndicator" destination="cqU-Cg-TOH" id="7VG-Dz-9A8"/>
+                        <outlet property="nmLabel" destination="Pxu-zk-uWM" id="H8s-5U-FpK"/>
+                        <outlet property="nmPageControl" destination="sVf-cy-1Au" id="FN4-UF-Yka"/>
+                        <outlet property="nmProgressView" destination="Q6w-kt-jpg" id="j9A-aL-feq"/>
+                        <outlet property="nmSearchBar" destination="ncX-MR-3mW" id="D0a-eK-XIX"/>
+                        <outlet property="nmSlider" destination="mwH-Df-8K2" id="mdX-JR-4Nf"/>
+                        <outlet property="nmStepper" destination="XKq-bh-h3L" id="uj2-YR-ToM"/>
+                        <outlet property="nmSwitch" destination="Eyn-eb-PmI" id="cMa-o7-Zt9"/>
+                        <outlet property="nmTextField" destination="pID-3m-2bq" id="IXq-zh-I0J"/>
+                        <outlet property="nmView" destination="bpw-oH-VpT" id="B14-dS-Fm5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294.20289855072468" y="26.785714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
