@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SKNeumorphKit'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'SKNeumorphKit is a swift library to make neumorphic designs.'
   s.description      = <<-DESC
   'SKNeumorphKit is a library to acheive newmorphic design in iOS. Required platform is iOS 13.0 or higher'
