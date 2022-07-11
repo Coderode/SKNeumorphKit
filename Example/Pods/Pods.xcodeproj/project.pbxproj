@@ -9,24 +9,24 @@
 /* Begin PBXBuildFile section */
 		06295EE8FA880D7AACB5426A4985BD95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		0D2CA321FC8CF9A4C330924EC0A3D0F6 /* Pods-SKNeumorphKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88643B2936B7F9D07327105A08AC37DE /* Pods-SKNeumorphKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C5D7D86287C5F750057AB1E /* ShadowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75924726E9F48700F0AD83 /* ShadowType.swift */; };
+		2C5D7D87287C5F780057AB1E /* NMActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75924926E9F4E200F0AD83 /* NMActivityIndicatorView.swift */; };
+		2C5D7D88287C5F7B0057AB1E /* NMButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75924B26E9F50200F0AD83 /* NMButtonView.swift */; };
+		2C5D7D89287C5F7F0057AB1E /* NMCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75924D26E9F52B00F0AD83 /* NMCollectionViewCell.swift */; };
+		2C5D7D8A287C5F830057AB1E /* NMDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75924F26E9F67300F0AD83 /* NMDatePicker.swift */; };
+		2C5D7D8B287C5F860057AB1E /* NMImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925126E9F68700F0AD83 /* NMImageView.swift */; };
+		2C5D7D8C287C5F8A0057AB1E /* NMLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925326E9F6A200F0AD83 /* NMLabel.swift */; };
+		2C5D7D8D287C5F8D0057AB1E /* NMPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925526E9F6BA00F0AD83 /* NMPageControl.swift */; };
+		2C5D7D8E287C5F900057AB1E /* NMProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925726E9F6D400F0AD83 /* NMProgressView.swift */; };
+		2C5D7D8F287C5F940057AB1E /* NMSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925926E9F6E900F0AD83 /* NMSearchBar.swift */; };
+		2C5D7D90287C5F980057AB1E /* NMSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925B26E9F6FC00F0AD83 /* NMSlider.swift */; };
+		2C5D7D91287C5F9B0057AB1E /* NMStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925D26E9F71600F0AD83 /* NMStepperView.swift */; };
+		2C5D7D92287C5F9F0057AB1E /* NMSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925F26E9F73100F0AD83 /* NMSwitch.swift */; };
+		2C5D7D93287C5FA20057AB1E /* NMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75926126E9F74B00F0AD83 /* NMTableViewCell.swift */; };
+		2C5D7D94287C5FA50057AB1E /* NMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75926326E9F76300F0AD83 /* NMTextField.swift */; };
+		2C5D7D95287C5FA80057AB1E /* NMTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75926526E9F77B00F0AD83 /* NMTextView.swift */; };
+		2C5D7D96287C5FAC0057AB1E /* NMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75926726E9F78F00F0AD83 /* NMView.swift */; };
 		2CB5FE2426EB195D005E19BA /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5FE2326EB195D005E19BA /* CustomView.swift */; };
-		2CB5FE2A26EB3A8D005E19BA /* ShadowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75924726E9F48700F0AD83 /* ShadowType.swift */; };
-		2CB5FE2B26EB3A93005E19BA /* NMActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75924926E9F4E200F0AD83 /* NMActivityIndicatorView.swift */; };
-		2CB5FE2C26EB3A97005E19BA /* NMButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75924B26E9F50200F0AD83 /* NMButtonView.swift */; };
-		2CB5FE2D26EB3AF6005E19BA /* NMCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75924D26E9F52B00F0AD83 /* NMCollectionViewCell.swift */; };
-		2CB5FE2E26EB3AF9005E19BA /* NMDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75924F26E9F67300F0AD83 /* NMDatePicker.swift */; };
-		2CB5FE2F26EB3AFC005E19BA /* NMImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925126E9F68700F0AD83 /* NMImageView.swift */; };
-		2CB5FE3026EB3AFF005E19BA /* NMLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925326E9F6A200F0AD83 /* NMLabel.swift */; };
-		2CB5FE3126EB3B02005E19BA /* NMPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925526E9F6BA00F0AD83 /* NMPageControl.swift */; };
-		2CB5FE3226EB3B05005E19BA /* NMProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925726E9F6D400F0AD83 /* NMProgressView.swift */; };
-		2CB5FE3326EB3B08005E19BA /* NMSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925926E9F6E900F0AD83 /* NMSearchBar.swift */; };
-		2CB5FE3426EB3B0B005E19BA /* NMSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925B26E9F6FC00F0AD83 /* NMSlider.swift */; };
-		2CB5FE3526EB3B0E005E19BA /* NMStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925D26E9F71600F0AD83 /* NMStepperView.swift */; };
-		2CB5FE3626EB3B10005E19BA /* NMSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75925F26E9F73100F0AD83 /* NMSwitch.swift */; };
-		2CB5FE3726EB3B13005E19BA /* NMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75926126E9F74B00F0AD83 /* NMTableViewCell.swift */; };
-		2CB5FE3826EB3B16005E19BA /* NMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75926326E9F76300F0AD83 /* NMTextField.swift */; };
-		2CB5FE3926EB3B19005E19BA /* NMTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75926526E9F77B00F0AD83 /* NMTextView.swift */; };
-		2CB5FE3A26EB3B1B005E19BA /* NMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75926726E9F78F00F0AD83 /* NMView.swift */; };
 		6BF5EFB3CAC344F6961437F1CA800218 /* SKNeumorphKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A7497AD7257E896EC48FE1DBE0528F /* SKNeumorphKit-dummy.m */; };
 		70EDB2D3DC5186723A07FB240AE65F01 /* Pods-SKNeumorphKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DC834E9554D93F065D28420CBBFBBD /* Pods-SKNeumorphKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72CEE7D7B4BACB5E5EC63A432AC9DAA4 /* Pods-SKNeumorphKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE61180C6E898308481262659A15A789 /* Pods-SKNeumorphKit_Tests-dummy.m */; };
@@ -147,19 +147,7 @@
 		2A4031E59A8F21F7EE33E78FFFC2F187 /* SKNeumorphKit */ = {
 			isa = PBXGroup;
 			children = (
-				2C75924226E9F2C300F0AD83 /* util */,
-				2C75924126E9F2BE00F0AD83 /* source */,
-				0C2EC06C8CAEE3B3B50D82C9914DFBF8 /* Pod */,
-				8C3CED0E0E62EAFC1C122116A2DCA2A9 /* Support Files */,
-				2CB5FE2326EB195D005E19BA /* CustomView.swift */,
-			);
-			name = SKNeumorphKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2C75924126E9F2BE00F0AD83 /* source */ = {
-			isa = PBXGroup;
-			children = (
+				2C75924726E9F48700F0AD83 /* ShadowType.swift */,
 				2C75924926E9F4E200F0AD83 /* NMActivityIndicatorView.swift */,
 				2C75924B26E9F50200F0AD83 /* NMButtonView.swift */,
 				2C75924D26E9F52B00F0AD83 /* NMCollectionViewCell.swift */,
@@ -176,16 +164,12 @@
 				2C75926326E9F76300F0AD83 /* NMTextField.swift */,
 				2C75926526E9F77B00F0AD83 /* NMTextView.swift */,
 				2C75926726E9F78F00F0AD83 /* NMView.swift */,
+				0C2EC06C8CAEE3B3B50D82C9914DFBF8 /* Pod */,
+				8C3CED0E0E62EAFC1C122116A2DCA2A9 /* Support Files */,
+				2CB5FE2326EB195D005E19BA /* CustomView.swift */,
 			);
-			path = source;
-			sourceTree = "<group>";
-		};
-		2C75924226E9F2C300F0AD83 /* util */ = {
-			isa = PBXGroup;
-			children = (
-				2C75924726E9F48700F0AD83 /* ShadowType.swift */,
-			);
-			path = util;
+			name = SKNeumorphKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		3EDA7795EB12D4241272C90C801F3520 /* Pods-SKNeumorphKit_Tests */ = {
@@ -456,24 +440,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CB5FE3826EB3B16005E19BA /* NMTextField.swift in Sources */,
-				2CB5FE3526EB3B0E005E19BA /* NMStepperView.swift in Sources */,
+				2C5D7D94287C5FA50057AB1E /* NMTextField.swift in Sources */,
+				2C5D7D91287C5F9B0057AB1E /* NMStepperView.swift in Sources */,
 				6BF5EFB3CAC344F6961437F1CA800218 /* SKNeumorphKit-dummy.m in Sources */,
-				2CB5FE3626EB3B10005E19BA /* NMSwitch.swift in Sources */,
-				2CB5FE2B26EB3A93005E19BA /* NMActivityIndicatorView.swift in Sources */,
-				2CB5FE3126EB3B02005E19BA /* NMPageControl.swift in Sources */,
-				2CB5FE2E26EB3AF9005E19BA /* NMDatePicker.swift in Sources */,
-				2CB5FE3326EB3B08005E19BA /* NMSearchBar.swift in Sources */,
-				2CB5FE3226EB3B05005E19BA /* NMProgressView.swift in Sources */,
-				2CB5FE3026EB3AFF005E19BA /* NMLabel.swift in Sources */,
-				2CB5FE2D26EB3AF6005E19BA /* NMCollectionViewCell.swift in Sources */,
-				2CB5FE3726EB3B13005E19BA /* NMTableViewCell.swift in Sources */,
-				2CB5FE3926EB3B19005E19BA /* NMTextView.swift in Sources */,
-				2CB5FE2A26EB3A8D005E19BA /* ShadowType.swift in Sources */,
-				2CB5FE2F26EB3AFC005E19BA /* NMImageView.swift in Sources */,
-				2CB5FE2C26EB3A97005E19BA /* NMButtonView.swift in Sources */,
-				2CB5FE3426EB3B0B005E19BA /* NMSlider.swift in Sources */,
-				2CB5FE3A26EB3B1B005E19BA /* NMView.swift in Sources */,
+				2C5D7D92287C5F9F0057AB1E /* NMSwitch.swift in Sources */,
+				2C5D7D87287C5F780057AB1E /* NMActivityIndicatorView.swift in Sources */,
+				2C5D7D8D287C5F8D0057AB1E /* NMPageControl.swift in Sources */,
+				2C5D7D8A287C5F830057AB1E /* NMDatePicker.swift in Sources */,
+				2C5D7D8F287C5F940057AB1E /* NMSearchBar.swift in Sources */,
+				2C5D7D8E287C5F900057AB1E /* NMProgressView.swift in Sources */,
+				2C5D7D8C287C5F8A0057AB1E /* NMLabel.swift in Sources */,
+				2C5D7D89287C5F7F0057AB1E /* NMCollectionViewCell.swift in Sources */,
+				2C5D7D93287C5FA20057AB1E /* NMTableViewCell.swift in Sources */,
+				2C5D7D95287C5FA80057AB1E /* NMTextView.swift in Sources */,
+				2C5D7D86287C5F750057AB1E /* ShadowType.swift in Sources */,
+				2C5D7D8B287C5F860057AB1E /* NMImageView.swift in Sources */,
+				2C5D7D88287C5F7B0057AB1E /* NMButtonView.swift in Sources */,
+				2C5D7D90287C5F980057AB1E /* NMSlider.swift in Sources */,
+				2C5D7D96287C5FAC0057AB1E /* NMView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
